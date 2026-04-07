@@ -2,15 +2,13 @@
 
 ## 👋 Welcome
 
-This project helps you make your **first open-source contribution**.
-
-No experience needed.
+This project helps beginners make their **first open-source contribution**.
 
 ---
 
 ## 🎯 What You Will Do
 
-You will add your name to a file and create your first Pull Request.
+You will add your name to a file and create a Pull Request.
 
 ---
 
@@ -21,18 +19,20 @@ You will add your name to a file and create your first Pull Request.
 
 ---
 
-## 🪜 Steps to Contribute
+## 🪜 Steps to Contribute (With Example)
 
 ### 1. Fork this repository
 
-Click the **Fork** button (top right).
+👉 Click the **Fork** button on top right.
 
 ---
 
 ### 2. Clone your fork
 
+Example:
+
 ```bash
-git clone https://github.com/YOUR-USERNAME/my-first-pr.git
+git clone https://github.com/john123/my-first-pr.git
 cd my-first-pr
 ```
 
@@ -40,8 +40,10 @@ cd my-first-pr
 
 ### 3. Create a branch
 
+Example:
+
 ```bash
-git switch -c add-your-name
+git switch -c add-john-name
 ```
 
 ---
@@ -51,39 +53,43 @@ git switch -c add-your-name
 Open `CONTRIBUTORS.md` and add:
 
 ```markdown
-#### Your Name (https://github.com/your-username)
+#### John Doe (https://github.com/john123)
 ```
-
-⚠️ Add it somewhere in the middle — not top or bottom.
 
 ---
 
 ### 5. Commit your changes
 
+Example:
+
 ```bash
 git add .
-git commit -m "Added my name"
+git commit -m "Added John Doe"
 ```
 
 ---
 
 ### 6. Push your branch
 
+Example:
+
 ```bash
-git push -u origin add-your-name
+git push -u origin add-john-name
 ```
 
 ---
 
-### 7. Create a Pull Request
+### 7. Create Pull Request
 
-Go to GitHub and click **Compare & pull request**
+👉 Go to GitHub
+👉 Click **Compare & pull request**
+👉 Click **Create Pull Request**
 
 ---
 
-## 🎉 Done!
+## 🎉 Congratulations!
 
-You just made your first contribution 🚀
+You made your first contribution 🚀
 
 ---
 
@@ -94,5 +100,3 @@ You just made your first contribution 🚀
 | authentication failed | Use Personal Access Token  |
 | not a git repo        | Run `cd my-first-pr`       |
 | push rejected         | Run `git pull origin main` |
-
----
